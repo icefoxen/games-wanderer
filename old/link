@@ -1,0 +1,18 @@
+#!/bin/sh
+
+OPTFILES="globals.cmx util.cmx resources.cmx config.cmx vector.cmx quaternion.cmx mesh.cmx texture.cmx gameobj.cmx particles.cmx camera.cmx drawing.cmx input.cmx driver.cmx main.cmx"
+
+#OPTLIBS="str.cmxa unix.cmxa nums.cmxa bigarray.cmxa sdl.cmxa sdlloader.cmxa sdlttf.cmxa sdlmixer.cmxa"
+
+OPTLIBS="bigarray.cmxa str.cmxa sdl.cmxa sdlloader.cmxa sdlmixer.cmxa sdlttf.cmxa lablgl.cmxa lablglut.cmxa unix.cmxa"
+
+OCAMLCP=ocamlcp
+OCAMLOPT=ocamlopt
+
+OCAMLSDLLIB=`ocamlfind query sdl`
+
+OUTNAME=wanderer
+
+
+$OCAMLOPT -thread -o $OUTNAME -I $OCAMLSDLLIB -I +lablGL $OPTLIBS $OPTFILES
+

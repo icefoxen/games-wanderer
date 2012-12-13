@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "Cleaning..."
+./clean
+echo "Compiling..."
+./compile
+echo "Linking..."
+./link
+echo "Done!"

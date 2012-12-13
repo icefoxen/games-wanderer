@@ -1,0 +1,65 @@
+To do next:
+
+
+Subclass things for terrain elements, create behaviors, etc.  Orbit, spin,
+pulse, oscillate, epicycle...
+World content and generation
+--Start with creating various objects to drift around a system...  check out
+-- some old EoI/EoF stuff for inspiration.  Make it spherical rather than
+-- square, remember.  Spherical coordinates might make life easier here.  ^_^;
+-- Okay.  We need a terrain.lua with... SHIT in it.  Like a class for stellae.
+-- Then we have classes for each type of feature around it, attached to it
+-- so it has some control over how and when they're drawn.
+Proper rendering with quadtrees and such...
+Skybox...
+UI and HUD
+Make turning have some amount of momentum to it
+Menu input
+Construction
+Ugh, collision detection
+Transparency
+Lighting
+Sound
+
+
+Implementation notes:
+Some things are invisible, depending on your sensors?
+There are lots of different features.  Fountains, clouds, crystals, planets...
+When things get too distant, they're just drawn as dots?  Rendered to HUD
+symbols?  Drawn as billboards, dimmer with distance.  Look at Celestia to see
+how it's done.
+Your ship is special, and has a name, modules, power systems, etc.
+Multiple drives?  Autopilot?
+Drag!
+Weapons, particles, billboards...
+
+
+To do someday:
+Sound and music
+Skybox
+Light
+
+Consider multithreading?
+
+Handy docs:
+http://www.lua.org/pil/24.html
+http://www.lua.org/manual/5.1/
+
+
+Aha!  I have had insights from how Homeworld 2 does meshes.
+1) You start with a skeleton of points.  These points form a tree, and are
+each defined relative to each other.  HW2 calls these 'hardpoints'.  I'll call
+them skeleton nodes.
+2) Each node in the skeleton can have a mesh attached to it, or be manipulated
+by animations, or have weapon points attached to them or such.
+3) Apparently in HW2 each mesh contains its own LOD info, but that's cable of
+being inverted if we want and have each skeleton node have multiple mesh
+objects and LOD parameters.  I'm not sure we want to.  LOD parameters are put
+in the .ship file.
+4) Meshes have materials assigned to them, which controls the textures and
+such that get put on it.  They are apparently just .obj materials, or closely
+related thereto.
+
+Other things to consider: Glow layers, transparency layers, team color-y
+layers, and how to make OpenGL do the compositing instead of SDL (well, if it
+only has to composite once, not an issue).

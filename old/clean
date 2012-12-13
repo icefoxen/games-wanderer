@@ -1,0 +1,8 @@
+#!/bin/sh
+rm -rf *~
+rm -rf *.cmo
+rm -rf *.cmi
+rm -rf *.cmx
+rm -rf *.o
+rm -rf sm
+rm -rf sm.opt

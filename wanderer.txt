@@ -1,0 +1,284 @@
+WANDERER
+Wanderer is a game about exploring a strange new universe and solving the
+mystery of the strange destructive forces that lurk within.
+
+
+Things that make games good: Story, advancement, 
+
+
+PLOT
+You are... some scientist.  We probably never get a real name or explination
+of the past, but there is a hint of Victorian elegance and such about it
+--maybe not in fact, but in style.  Names tend to be in Latin, much
+old-science observation and such.
+You came here as part of an exploration team, but through events that may
+never get fully revealed, all but yourself perished.  Working desperately, you
+managed to activate and control some of the mysterious artifacts scattered
+about, invented tools to let you percieve and make sense of the alien universe
+around you.
+You cannot leave, though.  That is still beyond your power.
+
+The plot is generally revealed through your journal.  Like Ironseed, each time
+something interesting happens, you get a new Journal entry.  Unlike Ironseed,
+these ought to actually be expository and helpful, and have some relation to
+what's actually happening in the game.
+
+Exploration is a big theme here.  There should be mysteries for you to solve,
+secrets to uncover, ancient stories to unravel.  Many should have nothing to
+do with the main plot, perhaps.
+
+The main sources of information are probably going to be 1) Your own original
+theories and discoveries, 2) artifacts and such left behind by other people
+who have inhabited whatever this space is, and 3) Information gleaned from the
+husks of the Devourers.
+
+There are other dangers besides the Devourers, both environmental and
+situational.  
+
+
+DEVOURERS
+There are more beings in the universe besides you.  There are the Devourers,
+which as the name suggests, consume everything.  Details are hazy at this
+point, but... their source is the lonliness and insane hatred of another
+explorer who came here before you, driven mad by the isolation.  To defeat the
+Devourers, you must save her from her own fear and rage.
+
+You will find traces of her, and of other expeditions.
+
+They can't eat EVERYthing, at least not yet.  But they certainly trash 
+outposts, local life forms, and other signs of order and beauty.  I don't
+think they can touch big features though, stellae and ice-fields and so on.
+Maybe not yet, at least.
+
+How do they operate?  Are they centered in hives, or are they nomadic?  Do
+they cluster around certain features, such as lacunae?
+-Is there a big realm of space they've blotted out?
+-Is there an unbroken line of them advancing across the universe?
+-Are they wandering aimlessly making random raids on anything in their path?
+
+Upon consideration, you start at the center of the universe, and they are
+based at the periphery.  You move out and they move in.  There are probably
+expeditions and outposts in a more or less irregular sphere.
+
+
+
+UNIVERSE
+*Fact
+The universe is a dark and mysterious, somewhat surrealistic place, with
+little solid resemblance to ours.  The laws of physics are whatever I want
+them to be.
+
+There are six elements, each associated with a particular type of feature;
+three pairs of opposites.  Lux opposes obscuris, aether opposes glacialis, and
+materia opposes vacuum.
+Lux comes from stellae
+Obscuris comes from lacunae
+Aether comes from gas clouds
+Glacialis comes from ice fields
+Materia comes from rocks and dust
+Vacuum comes from the spaces far away from everything?
+
+The three "light" elements are lux, aether and materia.  They are pretty easy
+to see and manipulate.
+The dark elements are obscuris, glacialis, and vacuum.  They're a lot rarer
+and generally invisible.
+Lux is the most fundamental and basic element, while vacuum is the most
+dangerous and exotic.
+
+Stellae tend to push objects outward.  Lacunae pull in.
+Gas clouds slow you down and make you use up fuel faster.  Ice fields slowly
+erode and damage you.
+
+The overall structure of the universe is this:
+In the center, there is a cluster of lux, aether and materia.  This is the
+Core, the safest part of the universe, moderately rich in resources.  It's
+also relatively small, and a lot of the stuff there is fairly thoroughly
+ravaged.
+
+Around it are three rings interlocked with each other.  One is rich in lux,
+one is rich in materia, one is rich in aether.  This is the Frontier, where
+the individual resources are more plentiful and concentrated, but also all
+spread out away from each other.  Where the rings cross there are high
+concentrations of both elements, and more interesting things tend to happen
+there.
+
+Around that is another three rings, one rich in obscuris, one rich in
+glacialis, and one rich in vacuum.  This area is sparse, dire, and dangerous,
+full of Devourers, and the site of some of the rarest and most exotic elements
+in the universe.
+
+These characterizations are not absolute.  There will be small pockets of void
+in the innermost cluster, and small pockets of lux in the outermost.  But,
+they'll be small and uncommon and generally hard to find.
+
+It should all be procedurally generated, as well.  That should be fairly
+simple, at least to do badly.
+
+
+*Speculation
+There is life, sometimes, or something resembling it.
+Space dragons!
+Space whales too.  They provide the background music
+
+Dates.  Keep track of 'em.
+
+Trees, fountains, clouds, ice-crystals, helices, worlds, asteroids...  Big,
+strange, incomprehensible natural structures.  Lots of 6-fold and 3-fold
+symmetry.  Huge Kadesh and Junkyard-ish mega-structures?
+
+
+
+MINING, BUILDING AND TECHNOLOGY
+*Mining 
+There are six fundamental elements: Lux, Obscuris, Materia, Vacuum, Aether,
+Glacialis.  Light, Dark, Matter, Void, Ether, Frost
+Each comes from a different place.  There are three pairs of opposites; pretty
+obvious.
+
+So each point in space has an 'element richness', depending on proximity of
+stellar features.  Stellae, rocks, clouds, etc.  The exception is Vacuum,
+which is 'denser' the further you are from anything.
+
+Mining is accomplished via outpost structures.  They operate continually,
+making a cache of elements.  They also consume elements to operate, and don't
+work too fast.  Prolonged operation may temporarily deplete local
+concentration.
+
+Your ship and such require a certain amount of elements for life-support and
+fuel.  Probably Lux for energy, Materia for maintainance (maybe), and Aether 
+for fuel?  Obscuris, Vacuum and Glacialis are probably harder to get.
+
+*Building
+Objects are summoned, not built.
+
+Ironseed...
+Runeprints.  You probably have to find them, but may be able to research
+them to come up with more efficient versions, or synthisize new things.
+
+Each outpost is built around a core.  The number of cores you have is the
+limiting factor of how many outposts you can build.  
+
+Mining systems
+Refineries (not necessary, but improves efficiency)
+Fabbers
+Power systems
+Research labs (Run by runeminds, to a large extent, but perhaps not totally)
+Weapons
+Defenses (shields, stealth, etc)
+Sensors
+Communication systems?
+Drone bays?
+Independant craft?  Miners, guards, etc.
+
+*Other tech
+Runeminds.  Basically, computers.  They're an artifact from YOUR civilization,
+not part of the shattered wrecks you find and adapt.
+
+There are no space stations, they're outposts.  You're not exactly in space,
+after all.
+
+Skyhooks?
+Transportation is a bitch.  Teleporters of some kind, perhaps?  Streams,
+funnelling material from one point to another... might be doable.  Or perhaps
+automated shuttles, a la Alien Legacy.
+
+Stations are things you need to protect from the Devourers.
+
+You can probably only build things from certain, fixed seeds.  This keeps it
+from being Alien Legacy, with infinate power and infinate complexity and
+infinate micro.
+
+You need certain artifacts to build new outposts?  Can only build off the
+remains of old ones?  You need to be able to choose your points, but...  You
+shouldn't be able to blanket the universe in the things, even with the
+Devourers.
+
+Maybe the Devourers are powerful enough, and will concentrate on things that
+resist them, to the extent that any station is temporary?  That sounds...
+irritating.  Though hiding from them should be a priority.
+
+The "things" you create are at least partially metaphors for more alien
+manipulations that you cannot percieve directly.
+Is there a certain element of psionics and willpower involved in this?
+Hmmm...
+
+
+YOUR SHIP
+You can name it.  Default name: Stardrifter.
+I don't think you ever have reason to leave it.
+
+You only have one drive...  But it can probably accelerate exponentially, or
+at least faster-than-linear, making it effective for both in-system and moving
+between relevant points
+
+...neat idea, but a tad iffy, given my decision to do non-newtonian mechanics
+(even iffier with it, too).  
+
+Relevant systems:
+Engines
+Weapons
+Sensors
+Fuel tanks?
+Cargo bays?
+Drone bays? Combat drones, stealth drones, scanner drones, mining drones...
+Communication systems? keep in contact with outposts, have running updates of
+their stats, be warned of important events, etc.
+Other... stealth systems, mini-fabbers, active jammers...
+
+
+Oooh.  Here's an idea, that can partially obviate the need for new ships:
+You eventually get the capability to morph your ship to new, specialized
+forms.  They would be very good at one thing, and not very good at everything
+else.
+Roles: Scout, miner/builder/hauler, DPS ship, tank ship, drone ship...
+How you do this is undecided.  Either it happens only a finite number of
+times, or you can do it whenever you want at a suitably equipped base but it's
+expensive, or you can do it whenever you want at a suitably equipped base and
+it's cheap/free.
+
+This does bring up the idea of reconfiguring your ship on the fly for
+different roles, while NOT at a base.  It's an interesting idea that I shall
+have to contemplate.
+
+
+No max velocity, just a combination of acceleration and drag.  Drag depends on
+your ship layout.
+
+Each element produces different sorts of effects, beyond simple
+power/speed/range tradeoffs (though those also exist).  Lux weapons are beams
+that travel and hit instantly, for instance, while Aether weapons slow down
+the things they hit, and Materia weapons splinter out into AOE.  Obscuris
+weapons pull themselves towards the target (or at least A target), Glacialis
+weapons pierce shields, and Void weapons drain energy.
+These are just examples of things that MIGHT happen.  Similar sorts of effects
+exist in other componants.
+
+Ooh, submunitions
+
+You have a generator, with a power rating.  Componants do not have a fixed
+power consumption, but rather an efficiency rating.  The more power you put
+into them, the better they get; weapons, engines, sensors, etc.  
+The progression may well be nonlinear at both ends though, with effectiveness
+very much reduced with insufficient energy, and not much increased by
+overpowering.  It'll probably depend on the componant.
+
+
+COMBAT
+Ammo matters, but perhaps it simply enhances damage instead of doing all of
+it.  Thus you could fight with no ammo, just do badly.
+
+
+PEOPLE
+There are no other people.  This is the point.
+However, it occurs to me that one of the *fun* things about games like this is
+trading and meeting people.  So I think I shall have a few automated systems
+from those who came before, semi-autonomous and intelligent, or even just
+recordings of ghosts (sorta like that one episode of Lexx).
+
+
+HUD
+Okay, this is becoming increasingly necessary as navigation becomes trickier.
+1) I need a way to see how far away shit is
+2) I need to LOD things down to billboards or other un-flickery points (onto
+the skybox?)
+3) Need some sort of way to tell orientation

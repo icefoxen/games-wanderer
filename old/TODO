@@ -1,0 +1,23 @@
+Okay, I need a world.
+Procedurally-generated, at least on the large scale...
+Hmm.
+Well heck, it'll be easier to do here than for Starmaze, that's for sure.
+Cryxtels for the win.
+
+
+What would be COOL is two partially-transparent skyboxes overlaid... as you
+went from one place to the other, they would fade in and out.  Hmmm.
+
+TODO:
+DO AN EXAMPLE OF JUST TEXTURING A QUAD, AND SEE WHAT HAPPENS
+
+Go over the whole fucking engine, and see what's good and what isn't.
+Fix camera zoom!
+Real lighting and skybox classes!
+Real skybox class with multiple textures!
+Timers (objects that are updated and count down in ms, then activate some
+function or such.  A manager class to update them all.  Maybe ones that loop.
+Useful for particles.)
+Timed input (as in, input not based on frame count)
+Draw textured meshes, and materials
+Collision detection/raycasting
